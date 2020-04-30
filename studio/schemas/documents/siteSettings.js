@@ -74,6 +74,25 @@ export default {
                         ]
                     }
                 },
+                  
+                          {
+                    "type": "boolean",
+                    "name": "has_nav",
+                    "title": "Enable Navigation Menu",
+                    "description": "Display the navigation menu bar on the left side.",
+                    "initialValue": true,
+                    "validation": null
+                },
+                {
+                    "type": "boolean",
+                    "name": "has_social",
+                    "title": "Enable Social Links",
+                    "description": "Display social links on the left side.",
+                    "initialValue": true,
+                    "validation": null
+                }
+            ]
+        },
     
   ]
 }
