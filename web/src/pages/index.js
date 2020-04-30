@@ -99,7 +99,7 @@ const IndexPage = props => {
         <h1 hidden>Welcome to {site.title}</h1>
         {postNodes && (
           <BlogPostPreviewList
-            title='Latest from Amrut!'
+            title='Latest from jenny!'
             nodes={postNodes}
             browseMoreHref='/archive/'
           />
