@@ -31,6 +31,7 @@ export default createSchema({
     siteSettings,
     post,
     category,
+    categorynew,
     author,
     mainImage,
     authorReference,
