@@ -32,6 +32,8 @@ export default {
       title: 'Author',
       to: [{type: 'author'}]
     }
+    
+  ]
   
       {
             "type": "object",
@@ -92,7 +94,6 @@ export default {
                     "validation": null
                 }
             ]
-        },
-    
-  ]
+        }
+  
 }
