@@ -51,8 +51,8 @@ function BlogPost (props) {
               <div className={styles.categories}>
                 <h3 className={styles.categoriesHeadline}>Categories</h3>
                 <ul>
-                  {categories.map(categorynew => (
-                    <li key={categorynew._id}>{categorynew.title}</li>
+                  {categories.map(category => (
+                    <li key={category._id}>{category.title}</li>
                   ))}
                 </ul>
               </div>
