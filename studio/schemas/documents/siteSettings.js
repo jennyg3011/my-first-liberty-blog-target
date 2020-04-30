@@ -32,5 +32,48 @@ export default {
       title: 'Author',
       to: [{type: 'author'}]
     }
+  
+      {
+            "type": "object",
+            "name": "header",
+            "title": "Header Configuration",
+            "validation": null,
+            "fields": [
+                {
+                    "type": "string",
+                    "name": "title",
+                    "title": "Header Title",
+                    "description": "The title displayed on the left side. If value is not set, the author name will be used.",
+                    "validation": null
+                },
+                {
+                    "type": "string",
+                    "name": "tagline",
+                    "title": "Header Tagline",
+                    "description": "The tagline displayed on the left side.",
+                    "validation": null
+                },
+                {
+                    "type": "image",
+                    "name": "profile_img",
+                    "title": "Profile Image",
+                    "description": "The author profile image displayed on the left side. If value is not set, the author avatar will be used.",
+                    "validation": null
+                },
+                {
+                    "type": "string",
+                    "name": "bg",
+                    "title": "Header Background",
+                    "description": "The background of the left side.",
+                    "initialValue": "light",
+                    "validation": null,
+                    "options": {
+                        "list": [
+                            "light",
+                            "dark"
+                        ]
+                    }
+                },
+    
   ]
 }
