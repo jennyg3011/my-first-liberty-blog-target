@@ -1,7 +1,7 @@
 export default {
   name: 'categorynew',
   type: 'document',
-  title: 'Categorynew',
+  title: 'Jennys Section',
   fields: [
     {
       name: 'title',
